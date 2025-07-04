@@ -1,6 +1,6 @@
 # Tiny STL  
 
-简体中文 | [English](./docs/README_en.md)  
+**简体中文** | [English](./docs/README_en.md)  
 
 
 ## 一个轻量级C++模板库  
