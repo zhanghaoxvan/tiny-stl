@@ -1,6 +1,6 @@
 # Tiny STL  
 
-**Simplified Chinese** | [English](./docs/README_en.md)  
+[Simplified Chinese](../README.md) | **Endlish**
 
 
 ## A minimal C++ template library  
