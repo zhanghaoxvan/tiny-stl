@@ -18,7 +18,7 @@ You can submit issues [here](https://github.com/zhanghaoxvan/tiny-stl/issues) or
 - [x] `tiny_stl::vector<T, Alloc>`  
 - [x] `tiny_stl::array<T, n>`  
 - [x] `tiny_stl::list<T, Alloc>`  
-- [x] `tiny_stl::pair<T, U>`  
+- [x] `tiny_stl::pair<T, U>`
+- [x] `tiny_stl::deque<T, Alloc, buffer>`
 - [ ] `tiny_stl::set<T, Compare, Alloc>`  
-- [ ] `tiny_stl::deque<T, Alloc, bufsize>`
 - [ ] `tiny_stl::map<Key, Value, Compare, Alloc>`  
