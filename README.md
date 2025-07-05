@@ -19,6 +19,6 @@
 - [x] `tiny_stl::array<T, n>`
 - [x] `tiny_stl::list<T, Alloc>`
 - [x] `tiny_stl::pair<T, U>`
-- [ ] `tiny_stl::deque<T, Alloc, bufsize>`
+- [x] `tiny_stl::deque<T, Alloc, buffer>`
 - [ ] `tiny_stl::set<T, Compare, Alloc>`
 - [ ] `tiny_stl::map<Key, Value, Compare, Alloc>`
