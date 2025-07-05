@@ -3,6 +3,7 @@
 #include <array.hpp>
 #include <memory.hpp>
 #include <list.hpp>
+#include <deque.hpp>
 using namespace std;
 int main() {
     // tiny_stl::array<T, n> Tests
@@ -35,7 +36,7 @@ int main() {
     }
     cout << endl;
     cout << "Adding an element at front..." << endl;
-    vec.insert(vec.begin(), 114514);
+    vec.insert(vec.begin(), -1);
     cout << "Vector capacity: " << vec.capacity() << endl;
     cout << "Vector size: " << vec.size() << endl;
     cout << "Vector elements:" << endl;
@@ -51,6 +52,30 @@ int main() {
         if (++it != list.end()) {
             cout << " --> ";
         }
+    }
+    cout << endl;
+    // tiny_stl::deque<T, Alloc, buffer> Tests
+    tiny_stl::deque<int> deq(arr.begin(), arr.end());
+    cout << "Deque size: " << deq.size() << endl;
+    cout << "Deque Elements:" << endl;
+    for (auto i : deq) {
+        cout << i << " ";
+    }
+    cout << endl;
+    cout << "Adding an element at back..." << endl;
+    deq.push_back(10);
+    cout << "Deque size: " << deq.size() << endl;
+    cout << "Deque elements:" << endl;
+    for (auto i : deq) {
+        cout << i << " ";
+    }
+    cout << endl;
+    cout << "Adding an element at front..." << endl;
+    deq.push_front(-1);
+    cout << "Deque size: " << deq.size() << endl;
+    cout << "Deque elements:" << endl;
+    for (auto i : deq) {
+        cout << i << " ";
     }
     cout << endl;
     // tiny_stl::unique_ptr<T> Tests

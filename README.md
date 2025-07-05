@@ -12,12 +12,13 @@
 <3592114583@qq.com> | <zhanghaoxvan5681@gmail.com>  
 
 
-- [x] `tiny_stl::allocator<T>` 内存分配器  
-- [x] `tiny_stl::shared_ptr<T>` 共享智能指针  
-- [x] `tiny_stl::unique_ptr<T>` 独占智能指针  
-- [x] `tiny_stl::vector<T, Alloc>` 动态数组容器  
-- [x] `tiny_stl::array<T, n>` 固定大小数组  
-- [x] `tiny_stl::list<T, Alloc>` 双向链表容器  
-- [x] `tiny_stl::pair<T, U>` 键值对模板  
-- [ ] `tiny_stl::set<T, Compare, Alloc>` 有序集合（开发中）  
-- [ ] `tiny_stl::map<Key, Value, Compare, Alloc>` 关联映射（开发中）  
+- [x] `tiny_stl::allocator<T>`
+- [x] `tiny_stl::shared_ptr<T>`
+- [x] `tiny_stl::unique_ptr<T>`
+- [x] `tiny_stl::vector<T, Alloc>`
+- [x] `tiny_stl::array<T, n>`
+- [x] `tiny_stl::list<T, Alloc>`
+- [x] `tiny_stl::pair<T, U>`
+- [ ] `tiny_stl::deque<T, Alloc, bufsize>`
+- [ ] `tiny_stl::set<T, Compare, Alloc>`
+- [ ] `tiny_stl::map<Key, Value, Compare, Alloc>`
