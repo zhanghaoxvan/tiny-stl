@@ -14,7 +14,8 @@
 
 #include <cstddef>
 #include <algorithm> // 添加此头文件用于 std::copy 和 std::copy_backward
-// 假设 iterator.hpp 和 memory.hpp 存在，这里简单用标准库替代
+                     // 稍后自己实现并替换
+// #include <algorithm.hpp>
 #include <iterator>
 #include <memory> 
 
